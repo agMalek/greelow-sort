@@ -1,0 +1,40 @@
+
+body{
+    background: rgb(14, 126, 18);
+}
+
+.card{
+    background-color: #fff;
+    height: 80vh;
+    width: 450px;
+    border-radius: 10px;
+    margin: 60px auto;
+    font-size: 150px;
+    padding: 0px 20px;
+}
+
+.heart, .diamond{
+    color: red;
+}
+
+.club, .spade{
+    color: black;
+}
+
+.paloSuperior, .paloInferior, .numeroCard{
+    height: 33.3%;
+}
+
+.paloSuperior{
+}
+
+.numeroCard{
+    text-align: center;
+    color: black;
+}
+
+.paloInferior{
+    transform: rotate(180deg);
+}
+
+
