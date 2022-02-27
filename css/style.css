@@ -1,17 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 body{
     background: rgb(14, 126, 18);
 }
 
+.header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+.contenedorInputs{
+    display: flex;
+}
+
+label{
+    color: white;
+    margin-right: 10px;
+}
+
+button{
+    height: 35px;
+    width: 155px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    padding-left: 10px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.cards-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:80vh;
+}   
+
 .card{
     background-color: #fff;
-    height: 80vh;
-    width: 450px;
+    width: 300px;
+    height: 480px;
     border-radius: 10px;
-    margin: 60px auto;
+    margin: 60px 10px;
     font-size: 150px;
-    padding: 0px 20px;
+    padding: 0px 2%;
 }
+
 
 .heart, .diamond{
     color: red;

@@ -9,7 +9,35 @@
 </head>
 <body>
 
-    <div class="card"></div>
+
+    <header class="header">
+        <div class="item-header">
+            <button onclick=crearCarta() >Nueva carta</button>
+        </div>
+        <div class="contenedorInputs">
+
+            <div class="item-header">
+                <label for="width">Ancho</label>
+                <input type="number" placeholder="300" id="width" >
+            </div>
+            <div class="item-header">
+                <label for="width">Alto</label>
+                <input type="number" placeholder="480" id="heigth">
+            </div>
+            <div class="item-header">
+                <button onclick=actualizarMedidas()>Aplicar Medidas</button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="cards-container">
+       
+    </div>
+
+    
     
     <script src="./js/eje3.js"></script>
 </body>
